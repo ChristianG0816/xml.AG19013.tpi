@@ -17,7 +17,6 @@ ficha[id]::before{
     display: block;
     background-color: rgba(4, 60, 241, 0.945);
     padding: 30px;
-    ;
 }
 
 nombre, apellido{
