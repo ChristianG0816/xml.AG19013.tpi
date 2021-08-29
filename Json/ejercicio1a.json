@@ -1,0 +1,23 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Christian",
+				"apellido": "Ayala Guerra",
+				"direccion": "Santa Tecla",
+				"telefono": "63036597",
+				"email": "Chrisgue081611@gmail.com",
+				"web": "No Poseo una web personal",
+				"_id": "2",
+				"_fechaingreso": "2/11/2012"
+			}
+		]
+	}
+}

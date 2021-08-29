@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Ejercicio1b.xml AG19013  Bien formado-->
+
+<fichero>
+
+  <ficha  id="1" fechaingreso = "1/11/2012">
+    <nombre>Antonio</nombre>
+    <apellido>Barbero</apellido>
+    <direccion>Calle de Los Andes, 45</direccion>
+  </ficha>
+  
+  <ficha id="2" fechaingreso="2/11/2012">
+    <nombre>Christian</nombre>
+    <apellido>Ayala Guerra</apellido>
+    <direccion>Santa Tecla</direccion>
+    <telefono>63036597</telefono>
+    <email>Chrisgue081611@gmail.com</email>
+    <web>No Poseo una web personal</web>  
+  </ficha>
+  
+  <ficha id="3" fechaingreso="3/11/2012"> 
+    <nombre>Josue</nombre>
+    <apellido>Lopez</apellido>
+    <direccion>San Salvador</direccion>
+    <telefono>56984172</telefono>
+    <email>josue@hotmail.es</email>
+    <web>No Posee una web personal</web>
+    <documento tipo="dui">03086934-4</documento>
+    <documento tipo="isss">72917008960</documento>
+    <documento tipo="afp">1067993365</documento>
+      
+  </ficha>
+  
+
+</fichero>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- ejercicio2a.xml AG19013 Bien Formado -->
+
+<pais nombre="El Salvador">
+    <departamento id="1" nombre="San Salvador">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1,700,000</habitantes>
+    <altura>545 MSNM</altura>
+  </departamento>
+  
+   <departamento id="2" nombre="La Libertad">
+   <cabecera>Santa Tecla</cabecera>
+   <habitantes>843,500</habitantes>
+   <altura>30 MSNM</altura>
+   <moneda>Dolar Estadounidense</moneda>
+   <codigo id="telefonico-de-area">+503</codigo>
+   <idiomas>Español, Ingles</idiomas>
+   <area id="territorial">1,653</area>
+  </departamento>
+  
+</pais>
