@@ -1,0 +1,42 @@
+/* ejercicio1a AG19013*/
+
+fichero{
+    background-color: rgb(98, 185, 243);
+    text-align: center;
+    margin: 35px;
+}
+
+/*Before: Añade contenido estético a un elemento, usando la propiedad content*/
+/* attr() de CSS se usa para recuperar el valor de un atributo del elemento seleccionado */
+ficha[id]::before{
+    content: "Identificación " attr(id) " --- Fecha de registro " attr(fechaingreso);
+    /*Propiedades de estilo a los valores de los identificadores*/
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    background-color: rgba(4, 60, 241, 0.945);
+    padding: 30px;
+    ;
+}
+
+nombre, apellido{
+    font-size: 30px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+direccion{
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+telefono, email, web{
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+}
+
+

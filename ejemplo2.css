@@ -1,0 +1,33 @@
+/* ejemplo2.css AG19013*/
+
+pais{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+departamento{
+    background-color: aqua;
+    display: block;
+}
+
+cabecera{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: inline;
+}
+
+habitantes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    display: inline;
+    color: blue;
+}
+
+altura{
+    background-color: burlywood;
+    color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

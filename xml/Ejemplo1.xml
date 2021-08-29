@@ -2,6 +2,8 @@
 
 <!-- Ejemplo1.xml AG19013 -->
 
+<?xml-stylesheet type="text/css" href="../ejemplo1.css" ?>
+
 <fichero>
 
   <ficha  id="1" fechaingreso = "1/11/2012">

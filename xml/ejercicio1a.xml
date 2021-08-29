@@ -2,6 +2,9 @@
 
 <!-- Ejercicio1a.xml AG19013  Bien formado-->
 
+<!--Carga de Estilos-->
+<?xml-stylesheet type="text/css" href="../ejercicio1a.css" ?>
+
 <fichero>
 
   <ficha  id="1" fechaingreso = "1/11/2012">
