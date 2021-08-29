@@ -30,5 +30,29 @@ body{
 
 .barra a.active{
     background-color: brown;
-    color: beige;
+    color: whitesmoke;
+}
+
+li{
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+ol li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ol li a:hover{
+    color: blue;
+}
+
+.estiloText{
+    font-size: 17px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 40px;
 }
