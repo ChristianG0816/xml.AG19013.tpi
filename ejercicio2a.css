@@ -1,0 +1,103 @@
+/*Estilos Ejercicio2a */
+
+/*Propiedades generales de la pagina*/
+pais{
+    background-color: bisque;
+    margin: 35px;
+}
+
+pais[nombre]::before{
+    content: "Nombre del pais: " attr(nombre);
+    /*Estilos*/
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px;   
+    display: block;
+}
+
+departamento[id]::before{
+    content: "Numero de departamento: " attr(id) " Nombre del departamento: " attr(nombre);
+    /*Estilos*/
+    font-size: 20px;
+    display: block;
+    background-color: #c6e1f1;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+cabecera{
+    background-color:#f4ff91;
+    font-size: 20px;
+    padding:20px;
+    display:block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+habitantes, altura{
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+moneda{
+    font-style: italic;
+    color: green;
+    background-color: greenyellow;
+    font-size: 20px;
+    display: inline-block;
+    padding: 25px;
+    border-style: dotted;
+    border-color: rgb(43, 177, 2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+codigo[id]::before{
+    content: attr(id) " de El Salvador";
+    /*Estilos*/
+    font-style: initial;
+    background-color: aquamarine;
+    color: blue;
+    padding: 25px;
+    display: inline-block;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+codigo{
+    background-color: firebrick;
+    padding: 25px 0px 25px 0px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+idiomas{
+    display: inline-block;
+    font-size: 25px !important;
+    background-color: aliceblue;
+    color: blue;
+    font-style: oblique;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+area[id]::before{
+    content: "Area "attr(id) ": ";
+    /*Estilo*/
+    color: red;
+    background-color: pink;
+    display: inline-block;
+    font-size: 20px;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+area{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
