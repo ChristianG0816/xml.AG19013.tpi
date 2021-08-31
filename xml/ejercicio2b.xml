@@ -2,6 +2,10 @@
 
 <!-- ejercicio2b.xml AG19013 Bien Formado -->
 
+<!--Carga de Estilos-->
+
+<?xml-stylesheet type="text/css" href="../ejercicio2b.css" ?>
+
 <pais nombre="El Salvador">
     <departamento id="1" nombre="San Salvador">
     <cabecera>San Salvador</cabecera>

@@ -1,0 +1,113 @@
+/* Ejercicio2b */
+
+pais{
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    display: block;
+}
+
+pais[nombre]::before{
+    content: "Nombre del país: "attr(nombre);
+    /*Estilo*/
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    display: block;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aliceblue;
+}
+
+departamento[id]::before{
+    content: "Número de departamento segun registro: " attr(id) " -- " attr(nombre);
+    /*Estilo*/
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    color: blue;
+}
+
+cabecera,habitantes,altura {
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+moneda{
+    display: block;
+    background-color: greenyellow;
+    color: green;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    text-align: right;
+    padding-right: 100px;
+}
+
+moneda[id]::before{
+    content: "$: " attr(id) " Estadounidense";
+    display: block;
+    background-color: greenyellow;
+    color: green;
+    font-size: 25px;
+}
+
+codigo[id]::before{
+    content: "Identificación " attr(id) ": ";
+    /*Estilos*/
+    font-size: 25px;
+    font-style: italic;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+codigo{
+    font-size: 25px;
+    font-style: italic;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+idiomas{
+    display: block;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+idiomas[id]::before{
+    content: "Idiomas: " attr(id);
+    display: block;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+area[id]::before{
+    content: "Extension " attr(id) ": ";
+    /*Estilos*/
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+area{
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
