@@ -56,14 +56,6 @@ moneda{
     padding-right: 100px;
 }
 
-moneda[id]::before{
-    content: "$: " attr(id) " Estadounidense";
-    display: block;
-    background-color: greenyellow;
-    color: green;
-    font-size: 25px;
-}
-
 codigo[id]::before{
     content: "Identificación " attr(id) ": ";
     /*Estilos*/
