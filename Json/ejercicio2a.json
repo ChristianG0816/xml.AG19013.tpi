@@ -12,12 +12,6 @@
 				"cabecera": "Santa Tecla",
 				"habitantes": "843,500",
 				"altura": "30 MSNM",
-				"moneda": "Dolar Estadounidense",
-				"codigo": {
-					"_id": "telefonico-de-area",
-					"__text": "+503"
-				},
-				"idiomas": "Español, Ingles",
 				"area": {
 					"_id": "territorial",
 					"__text": "1,653"
@@ -26,6 +20,12 @@
 				"_nombre": "La Libertad"
 			}
 		],
+		"moneda": "Dolar Estadounidense",
+		"codigo": {
+			"_id": "telefonico-de-area",
+			"__text": "+503"
+		},
+		"idiomas": "Español, Ingles",
 		"_nombre": "El Salvador"
 	}
 }

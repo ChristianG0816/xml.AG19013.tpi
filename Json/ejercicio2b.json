@@ -12,12 +12,6 @@
 				"cabecera": "Santa Tecla",
 				"habitantes": "843,500",
 				"altura": "30 MSNM",
-				"moneda": "Dolar Estadounidense",
-				"codigo": {
-					"_id": "telefonico-de-area",
-					"__text": "+503"
-				},
-				"idiomas": "Español, Ingles",
 				"area": {
 					"_id": "territorial",
 					"__text": "1,653"
@@ -29,16 +23,6 @@
 				"cabecera": "Sonsonate",
 				"habitantes": "71,541",
 				"altura": "220 MSNM",
-				"moneda": {
-					"_id": "Dolar"
-				},
-				"codigo": {
-					"_id": "telefonico-de-area",
-					"__text": "+503"
-				},
-				"idiomas": {
-					"_id": "Español, Ingles"
-				},
 				"area": {
 					"_id": "territorial",
 					"__text": "232.53"
@@ -47,6 +31,12 @@
 				"_nombre": "Sonsonate"
 			}
 		],
+		"moneda": "Dolar Estadounidense",
+		"codigo": {
+			"_id": "telefonico-de-area",
+			"__text": "+503"
+		},
+		"idiomas": "Español, Ingles",
 		"_nombre": "El Salvador"
 	}
 }
